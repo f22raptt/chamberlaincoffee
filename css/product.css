@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    }
+    
+
+
+.container {
+    text-align: center;
+    width: 100%;
+    position: sticky;
+  }
+
+  .top-header {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.bluebox{
+
+    background-color:#143762 ;
+    height: 100px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;    color: white;
+}
+
+.left-texts {
+    display: flex;
+}
+
+.right-texts {
+    display: flex;
+}
+
+.text {
+    margin: 0 10px;
+}

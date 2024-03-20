@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>chamberlain coffee</title>
+  </head>
+  <body>
+    <!-- first part -->
+    <div id="container">
+      <button class="scroll" onclick="changeText(-1)">&#60;</button>
+      <div id="header">SUBSCRIBE & SAVE TODAY + FREE SHIPPING!</div>
+      <button class="scroll" onclick="changeText(1)">&#62;</button>
+    </div>
+
+    <div class="blue-header">FREE US SHIPPING ON ALL ORDERS 50+</div>
+
+    <div class="sticky-menu">
+      <div class="menu-container">
+        <div onclick="dropdown()" class="hamburger-menu">&#9776;</div>
+        <div class="black-background" onclick="exit1()" id="background"></div>
+        <div class="dropdown-menu" id="dropdown">
+          <ul>
+            <li onclick="exit()"><a href="#">exit</a></li>
+            <li><a href="#">subscribe</a></li>
+            <li><a href="#">shop all</a></li>
+            <li><a href="#">new products</a></li>
+            <li><a href="#">coffee bags</a></li>
+            <li><a href="#">single serve</a></li>
+            <li><a href="#">matcha, tea & more</a></li>
+            <li><a href="#">bundles</a></li>
+            <li><a href="#">accessories</a></li>
+            <li><a href="#">store locator</a></li>
+            <li><a href="#">club chamberlain</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-container">
+        <div class="bold-text">CHAMBERLAIN COFFEE</div>
+      </div>
+
+      <div class="icons-container">
+        <img onclick="login()" class="icon" src="../icons/icon1.png" />
+        <img class="icon" src="../icons/icon2.png" />
+      </div>
+      <div class="login" id="login">
+        <div class="login-top-header">
+          <p onclick="loginExit()" class="login-top-header-p">exit</p>
+          <p class="login-top-header-p">sign in</p>
+        </div>
+        <br />
+        <br />
+        <form>
+          <label class="login-top-header-p">Email</label> <br />
+          <input class="login-input" placeholder=" your@email.com" />
+          <br />
+          <label class="login-top-header-p">Password</label> <br />
+          <input class="login-input" placeholder=" your password" />
+          <br />
+          <p class="login-forget">forgot your password?</p>
+          <button
+            style="color: white; background-color: black"
+            class="login-button"
+          >
+            sign in
+          </button>
+          <br />
+          <button class="login-button">create an account</button> <br />
+          <button class="login-button">manage subscription</button> <br />
+        </form>
+      </div>
+    </div>
+
+    <div class="opt-header">
+      <div class="opt-container">
+        <div style="font-weight: bold">subscribe</div>
+        <div class="underline">shop all</div>
+        <div class="underline">coffee bags</div>
+        <div class="underline">single serve</div>
+        <div class="underline">matcha, tea & more</div>
+        <div class="underline">accessories</div>
+        <div class="underline">bundles</div>
+        <div class="underline">lattes</div>
+        <div class="underline">store locator</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="picture-container">
+          <video
+            class="picture"
+            autoplay=""
+            muted=""
+            loop=""
+            playsinline=""
+            poster=""
+          >
+            <source src="../pictures/vid.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+          <div class="header-p">The flavored collection</div>
+          <div class="description">
+            to celebrate the launch of yuz matcha, we're relaunching the yellow
+            double wall mug for a limited time only
+          </div>
+          <a href="#" class="button">Shop</a>
+        </div>
+      </div>
+    </div>
+    <div class="drop-shop">
+      <div>bundles</div>
+      <div>lattes</div>
+      <div>store locator</div>
+    </div>
+
+    <div class="buttom-line">
+      <div class="buttom-container">
+        <div>Created with love</div>
+        <div>4.8, 18,200 reviews</div>
+        <div>USDA Organic Options</div>
+      </div>
+    </div>
+    <div class="graybox">
+      <div class="get-header">get started with chamberlain coffee.</div>
+      <div class="get-des">
+        Get started with one of our bestselling starter packs including
+        everything you need for the perfect cold brew or matcha.
+      </div>
+      <!-- </div> -->
+
+      <div class="product-container">
+        <!-- Product 1 -->
+        <div class="product-box">
+          <div class="product-blue">
+            <div class="circle">
+              <span class="circle-text">on sale</span>
+            </div>
+            <img
+              src="../pictures/product1.webp"
+              alt="Product 1"
+              class="product-image"
+            />
+          </div>
+          <div class="product-text">
+            <p>cold brew starter pack</p>
+            <p>$42.00 <span class="text-off">$47.00 </span></p>
+          </div>
+          <div class="buttons1-cup">
+            <button class="button2 add-to-cart">choose type</button>
+            <button class="button2 sold-out">Add to cart</button>
+          </div>
+        </div>
+
+        <!-- Product 2 (similar structure) -->
+        <div class="product-box">
+          <!-- ... (content similar to Product 1) ... -->
+          <div class="product-blue">
+            <div class="circle">
+              <span class="circle-text">on sale</span>
+            </div>
+            <img
+              src="../pictures/product2.webp"
+              alt="Product 1"
+              class="product-image"
+            />
+          </div>
+          <div class="product-text">
+            <p>xl cold brew starter pack</p>
+            <p>$43.00<span class="text-off">$48.00 </span></p>
+          </div>
+          <div class="buttons1">
+            <button class="button2 add-to-cart">choose type</button>
+            <button class="button2 sold-out">Add to cart</button>
+          </div>
+        </div>
+
+        <!-- Product 3 (similar structure) -->
+        <div class="product-box">
+          <!-- ... (content similar to Product 1) ... -->
+          <div class="product-blue">
+            <div class="circle">
+              <span class="circle-text">on sale</span>
+            </div>
+            <img
+              src="../pictures/product3.webp"
+              alt="Product 1"
+              class="product-image"
+            />
+          </div>
+          <div class="product-text">
+            <p>Matcha starter pack</p>
+            <p>$63.00 <span class="text-off">$70.00 </span></p>
+          </div>
+          <div class="buttons1">
+            <button class="button2 add-to-cart">choose flavor</button>
+            <button class="button2 sold-out">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="blackline"></div>
+    </div>
+    <div class="graybox1">
+      <div class="get-header">fill your cup</div>
+      <div class="get-des">
+        Try one of our latest drops for the perfect pick-me-up.
+      </div>
+
+      <div class="product-container">
+        <!-- Product 1 -->
+        <div class="product-box">
+          <div class="product-blue">
+            <img
+              src="../pictures/cup1.webp"
+              alt="Product 1"
+              class="product-image"
+            />
+          </div>
+          <div class="product-text">
+            <p>dinner mug</p>
+            <p>$18.00</p>
+          </div>
+          <div class="buttons1-cup">
+            <button class="button2-cup sold-out">add to cart</button>
+          </div>
+        </div>
+
+        <!-- Product 2 (similar structure) -->
+        <div class="product-box">
+          <!-- ... (content similar to Product 1) ... -->
+          <div class="product-blue">
+            <img
+              src="../pictures/cup2.webp"
+              alt="Product 1"
+              class="product-image"
+            />
+          </div>
+          <div class="product-text">
+            <p>vanilla matcha</p>
+            <p>$26.00</p>
+          </div>
+          <div class="buttons1-cup">
+            <button class="button2-cup sold-out">add to cart</button>
+          </div>
+        </div>
+
+        <!-- Product 3 (similar structure) -->
+        <div class="product-box">
+          <!-- ... (content similar to Product 1) ... -->
+          <div class="product-blue">
+            <img
+              src="../pictures/cup3.webp"
+              alt="Product 1"
+              class="product-image"
+            />
+          </div>
+          <div class="product-text">
+            <p>green double wall mug</p>
+            <p>$18.00</p>
+          </div>
+          <div class="buttons1-cup">
+            <button class="button2-cup sold-out">add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="graybox2">
+      <div class="footer">
+        <div class="footer-container">
+          <div class="footer-box">
+            <p class="footer-header">chamberlain coffee</p>
+          </div>
+          <div class="footer-box">
+            <p class="footer-header">shop</p>
+            <div class="footer-text">
+              <p>coffee bags</p>
+              <p>bundles</p>
+              <p>accessories</p>
+            </div>
+          </div>
+          <div class="footer-box">
+            <p class="footer-header">user info</p>
+            <div class="footer-text">
+              <p>create account</p>
+              <p>sign in</p>
+            </div>
+          </div>
+          <div class="footer-box">
+            <p class="footer-header">service</p>
+            <div class="footer-text">
+              <p>faqs</p>
+              <p>contact</p>
+              <p>shipping & return</p>
+              <p>customer reviews</p>
+              <p>giveaway terms</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-line"></div>
+
+        <div class="footer-container2">
+          <div class="footer-box2">privacy policy</div>
+          <div class="footer-box2">terms & conditions</div>
+          <div class="footer-box2">refunds & returns</div>
+        </div>
+
+        <p class="footer-last">
+          ©2023 Chamberlain Coffee Inc. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+
+    <script src="../js/index.js"></script>
+  </body>
+</html>
